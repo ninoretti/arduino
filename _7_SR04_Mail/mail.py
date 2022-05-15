@@ -3,7 +3,7 @@
 import smtplib
 nome = 'Antonino'
 sender = ['py_mail@miur.gov.it']
-receivers = ['a51.oretti@gmail.com']
+receivers = ['a51.recivers@gmail.com']
 
 intestazione = """From: ninoretti <ninoretti@miur.gov.it>
 To: Oretti KN <pesca@miur.gov.it>
