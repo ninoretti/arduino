@@ -1,7 +1,7 @@
 # Arduino
 
 #### _0_STOP
-ferma le attività della scheda  
+ferma le attività della scheda  con un delay molto alto
 
 #### _1_LED_
 Fa lampeggiare un LED sulla porta 8
