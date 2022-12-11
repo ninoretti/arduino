@@ -5,19 +5,19 @@
 
 */
 
-#define LED_VERDE 8  // Associo al LED_VERDE il numero 8
+#define LED 13  // Associo al LED il numero 13
 
-int timeBlink = 1000;  // definisco un tempo di lampeggiamento
+int timeBlink = 100;  // definisco un tempo di lampeggiamento
 
 void setup()
 {
-    pinMode(LED_VERDE, OUTPUT); // definisco la porta come output
+    pinMode(LED, OUTPUT); // definisco la porta come output
 }
 
 void loop()
 {
-    digitalWrite(LED_VERDE, LOW); // spengo il led
+    digitalWrite(LED, LOW); // spengo il led
     delay(timeBlink);
-    digitalWrite(LED_VERDE, HIGH); // accendo il led
+    digitalWrite(LED, HIGH); // accendo il led
     delay(timeBlink);
 }
