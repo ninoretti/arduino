@@ -1,23 +1,23 @@
 /*
-    17 ottobre 2021 - accensione LED via software
-    
-    modificato il 7 marzo 2022
-
+   12 ottobre 2022 Marchi Antonino
+   
+   STA 2C e 2F - accensione LED via software 
 */
 
-#define LED 13  // Associo al LED il numero 13
+int LED_VERDE = 8;  // Associo al LED_VERDE il numero 8
+int timeBlink = 1000;  // definisco un tempo di lampeggiamento
 
-int timeBlink = 100;  // definisco un tempo di lampeggiamento
-
+/* Impostazioni iniziali del programma */
 void setup()
 {
-    pinMode(LED, OUTPUT); // definisco la porta come output
+    pinMode(LED_VERDE, OUTPUT); // definisco la porta come output
 }
 
+/* Ciclo del programma da eseguire */
 void loop()
 {
-    digitalWrite(LED, LOW); // spengo il led
+    digitalWrite(LED_VERDE, LOW); // spengo il led
     delay(timeBlink);
-    digitalWrite(LED, HIGH); // accendo il led
+    digitalWrite(LED_VERDE, HIGH); // accendo il led
     delay(timeBlink);
 }
