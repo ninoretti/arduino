@@ -1,4 +1,4 @@
-#include <SR04.h>
+//#include <SR04.h>
 
 
 /*
@@ -13,10 +13,10 @@
 
 int trigPin = 8;
 int echoPin = 7;
-SR04 SENSORE = SR04(echoPin, trigPin);
+//SR04 SENSORE = SR04(echoPin, trigPin);
 
 int wait = 500;
-float distanza;
+float distanza = 3.5;
 
 void setup() 
 {
@@ -25,7 +25,7 @@ void setup()
 
 void loop() {
 
-  distanza = SENSORE.Distance();
+ // distanza = SENSORE.Distance();
   Serial.println(distanza);
   delay(400);
 }

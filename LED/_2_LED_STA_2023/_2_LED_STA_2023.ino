@@ -7,7 +7,7 @@
 int LED_VERDE = 8;  // Associo al LED_VERDE il numero 8
 int LED_ROSSO = 11;  // Associo al LED_ROSSO il numero 11
 
-int wait = 1500;  // definisco un tempo di lampeggiamento in ms
+int wait = 100;  // definisco un tempo di lampeggiamento in ms
 
 void setup()
 {

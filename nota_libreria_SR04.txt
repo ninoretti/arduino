@@ -1,0 +1,9 @@
+La libreria è stata copiata nella directory /usr/share/arduino/libraries
+
+successivamente è stata ridenominato da HC-SR04 in SR04 
+poichè il carattere "-" non è ammesso nel nominare le directory
+
+
+cp /home/lnx/HC-SR04/ /usr/share/arduino/libraries
+chmod -R 755 /usr/share/arduino/libraries/
+mv HC-SR04/ Sr04
