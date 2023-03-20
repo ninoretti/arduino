@@ -21,18 +21,15 @@ void setup()
 
 void loop() 
 {
-//  Serial.print("Switch:  ");
-//  Serial.print(digitalRead(SW_pin));
-//  Serial.print("\n");
-    x = analogRead(X_PIN);
-    y = analogRead(Y_PIN);
+  x = analogRead(X_PIN);    // Leggo i valori
+  y = analogRead(Y_PIN);
   Serial.print("X: ");
   Serial.print(x);
   Serial.print(" ");
   Serial.print("Y: ");
   Serial.print(y);
   Serial.print("\n\n");
-  bottone = digitalRead(SWITCH_PIN);
-  Serial.println(bottone);
+//  bottone = digitalRead(SWITCH_PIN);
+//  Serial.println(bottone);
   delay(wait);
 }
